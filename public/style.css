@@ -1,0 +1,129 @@
+.fa-shopping-cart, .fa-user-circle-o{
+    font-size: 25px !important;
+}
+
+.fa-male,.fa-female,.fa-cart-arrow-down{
+    font-size: 42px !important;
+    margin-right: 10px;
+}
+
+.cd1,.cd2,.cd3{
+    display: flex !important;
+    width: 300px;
+    height: 75px;
+    background-color: white;
+    box-shadow: 2px 4px 5px black;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.cd{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.summer{
+    margin-top: 50px;
+}
+
+
+.card{
+    width: 200px;
+    height: auto;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+  
+
+.card-text{
+    font-weight: bold;
+}
+
+.btn-primary{
+    width: 100%;
+    background-color: black;
+}
+
+.heading{
+    text-align: center;
+    font-weight: bold;
+    margin: auto;
+}
+
+.heading > h1{
+    text-shadow: 2px 2px 4px gray;
+}
+
+.footer{
+    width: 100%;
+    background-color: black;
+    height: 70px;
+}
+
+.footer > h4{
+    text-align: center;
+    color: white;
+    padding-top: 17px;
+}
+
+@media screen and (max-width: 600px) {
+    .cd1,.cd2,.cd3{
+       width: 100%;
+    }
+  }
+
+  .btn-primary{
+       background-color: black !important;
+       
+  }
+
+  .btn-default:hover{
+      color: white !important;
+      background-color: gray;
+  }
+
+  .text-center{
+      color: white;
+  }
+
+ .container-fluid{
+     color: white !important;
+ }
+
+ .btn-default{
+     color: white !important;
+ }
+
+.aboutus{
+    text-align: justify;
+    text-align: center;
+
+}
+.about{
+    color: white;
+    margin-top: 10px;
+}
+.about > h1{
+    text-align: center;
+}
+
+.ab{
+    display: inline;
+   margin: 10px 5px 5px 10px;
+   font-size: 30px;
+   margin-right: 20px;
+   
+}
+
+
+
+
+  @media screen and (max-width: 600px) {
+    .card{
+       width: 100%;
+    }
+  }
